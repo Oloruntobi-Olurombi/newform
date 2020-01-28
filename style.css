@@ -1,0 +1,86 @@
+
+body {
+  background: rgb(180, 180, 197);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+header h1 {
+  text-align: center;
+  margin: 10px 0;
+}
+form {
+  background-color: #fff;
+  text-align: center;
+  margin: auto;
+   width: 90%;
+}
+
+form .para_1 {
+  padding: 30px 0;
+}
+
+form input.name {
+  width: 30%;
+  height: 30px;
+  margin-left: 10px;
+}
+
+form input.email {
+  width: 30%;
+  height: 30px;
+  margin-left: 10px;
+}
+
+form input.age {
+  width: 30%;
+  height: 30px;
+  margin-left: 10px;
+}
+
+#work_status{
+ padding: 10px;
+}
+
+.recom{
+  display: flex;
+  margin: 0 100px;
+  justify-content: center;
+  
+}
+
+.recom .recommend{
+ margin-left: 20px;
+}
+
+#fcc_select{
+  margin-left: 10px;
+  padding: 10px;
+}
+
+#bottom{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
+.improve{
+  margin-right: 10px;
+}
+
+.submit{
+  padding: 10px 20px;
+  margin: 50px 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.submit:hover{
+  background: greenyellow;
+  color: #fff;
+  outline:none;
+}
+.empty{
+ padding: 50px;
+}

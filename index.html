@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=1400px">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Forms||| Morning Challenge..</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header><h1>Survey Form</h1></header>
+ <form>
+  
+  <p class="para_1">Let us know how we can improve freeCodeCamp</p>
+
+  Name: <input type="text" name="name" placeholder="Enter your name" class="name"> <br> <br>
+  Email: <input type="email" placeholder="Enter your Email" class="email"> <br> <br>
+  Age: <input type="date" name="expecteddate" class="age"> <br> <br>
+
+  
+  
+  <span class="">Which option best describe your current role?</span> <select name="option" id="work_status">
+   
+   <option value="volvo">Employed</option>
+   <option value="saab">Unemployed</option>
+   <option value="fiat" selected>Student</option>
+   <option value="audi">Self Employed</option>
+  </select> 
+  <Br></Br>
+<div class="recom">
+  <div class="paraspan">
+  <span>How likely is that you would recommend<br> free freeCodeCamp to a friend?</span> 
+  </div>
+
+  <div class="recommend">
+  <input type="radio"  value=""> Definitely<br>
+  <input type="radio"  value=""> Maybe<br>
+   <input type="radio"  value="">Not sure
+  </div>
+  </div>
+<br> <br>
+   <span class="fcc">What do you like most in FCC: </span> 
+   <select name="" id="fcc_select">
+    <option value="volvo" selected>Select an option</option>
+    <option value="saab">Our Text</option>
+    <option value="fiat">Our Video</option>
+    <option value="audi">Our Challenge</option>
+    <option value="audi">Our Website</option>
+    <option value="audi">Our Tutors</option>
+   </select>
+
+   <div>
+    <br>
+    <div id="bottom">
+    <div class="improve">
+    <span>Things that should be improved in the future<br>(check all the apply):</span> 
+    </div>
+    <div class="check">
+    <input type="checkbox" name="Front-end"> Front-end Projects<br>
+    <input type="checkbox" name="Front-end"> Back-end Projects<br>
+    <input type="checkbox" name="Front-end"> Data Visualization<br>
+    </div>
+    </div>
+   </div>
+
+   <button type="submit" class="submit">Submit</button>
+
+ </form>
+ <span class="empty"></span>
+ <!--
+  <form>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+</form>-->
+
+<!--
+ <form action="/action_page.php">
+  <fieldset>
+    <legend>Personal information:</legend>
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey"><br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>-->
+
+<!-- (Selecct) 
+ <select name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+
+ (Allow Multiple Selections:)
+ <select name="cars" size="4" multiple>
+-->
+
+<!--Radio
+  <form action="/action_page.php">
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br><br>
+  <input type="submit">
+</form> 
+
+<!-- Check
+ <form>
+  <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+  <input type="checkbox" name="vehicle2" value="Car"> I have a car
+</form>
+-->
+</body>
+</html>
